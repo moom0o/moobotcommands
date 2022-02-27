@@ -47,19 +47,19 @@ The description is the second sql command executed (if the first one is ignored 
 
 **writeMessageOnly(table, uuid, message)** `UPDATE ${table} SET message=? WHERE uuid=?`
 
-updateKD(table, uuid, deaths, kills) `UPDATE ${table} SET deaths=?, kills=? WHERE uuid=?`
+**updateKD(table, uuid, deaths, kills)** `UPDATE ${table} SET deaths=?, kills=? WHERE uuid=?`
 
-writeSeen(table, uuid, time) `UPDATE ${table} SET time=? WHERE uuid=?`
+**writeSeen(table, uuid, time)** `UPDATE ${table} SET time=? WHERE uuid=?`
 
-writeQuote(table, uuid, message, time) `UPDATE ${table} SET json=? WHERE uuid=?`
+**writeQuote(table, uuid, message, time)** `UPDATE ${table} SET json=? WHERE uuid=?`
 
-getMessage(table, uuid, callback) `SELECT message, time FROM ${table} WHERE uuid = '${uuid}'`
+**getMessage(table, uuid, callback)** `SELECT message, time FROM ${table} WHERE uuid = '${uuid}'`
 
-getMessageOnly(table, uuid, callback) `SELECT message FROM ${table} WHERE uuid = '${uuid}'`
+**getMessageOnly(table, uuid, callback)** `SELECT message FROM ${table} WHERE uuid = '${uuid}'`
 
-getKD(table, uuid, callback) `SELECT deaths, kills FROM ${table} WHERE uuid = '${uuid}'`
+**getKD(table, uuid, callback)** `SELECT deaths, kills FROM ${table} WHERE uuid = '${uuid}'`
 
-getSeen(table, uuid, callback) `SELECT time FROM ${table} WHERE uuid = '${uuid}'`
+**getSeen(table, uuid, callback)** `SELECT time FROM ${table} WHERE uuid = '${uuid}'`
 
-getQuote(table, uuid, callback) `SELECT json FROM ${table} WHERE uuid = '${uuid}'`
+**getQuote(table, uuid, callback)** `SELECT json FROM ${table} WHERE uuid = '${uuid}'`
 
