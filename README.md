@@ -6,7 +6,7 @@ Please take a look at an example command in this repository, I have open sourced
 
 Make sure you have extensive knowlege of JavaScript, Node.JS, and Mineflayer.
 
-Once a command is created you can create a pull request where the community can comment and may be approved. Then it will be added into moobot.
+Once a command is created you can create a pull request where the community can comment and may be approved. Then it will be added into moobot. The commands will remain stored in this github repository as open source.
 
 Please create an issue for any questions, or suggestions that other people can fill.
 ## Functions
