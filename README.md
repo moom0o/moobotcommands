@@ -62,4 +62,3 @@ The description is the second sql command executed (if the first one is ignored 
 **getSeen(table, uuid, callback)** `SELECT time FROM ${table} WHERE uuid = '${uuid}'`
 
 **getQuote(table, uuid, callback)** `SELECT json FROM ${table} WHERE uuid = '${uuid}'`
-
